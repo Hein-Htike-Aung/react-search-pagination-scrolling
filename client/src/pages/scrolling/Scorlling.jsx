@@ -12,7 +12,7 @@ const Scorlling = () => {
 	useEffect(() => {
 		const getComments = async () => {
 			const res = await axios.get(
-				`https://jsonplaceholder.typicode.com/comments?_page=1&_limit=10`,
+				`https://jsonplaceholder.typicode.com/posts?_page=1&_limit=10`,
 			);
 			setItems(res.data);
 		};
@@ -22,7 +22,7 @@ const Scorlling = () => {
 
 	const fetchComments = async () => {
 		const res = await axios.get(
-			`https://jsonplaceholder.typicode.com/comments?_page=${nextPage}&_limit=10`,
+			`https://jsonplaceholder.typicode.com/posts?_page=${nextPage}&_limit=10`,
 		);
 
 		return res.data;
