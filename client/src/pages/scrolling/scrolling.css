@@ -1,0 +1,4 @@
+.scrolling {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,41 @@
+.pagination {
+	padding: 0 220px;
+}
+
+.paginator {
+	display: flex;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.paginatorWrapper {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	justify-content: center;
+}
+
+.page {
+	color: rgb(57, 57, 183);
+	padding: 10px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.prevBtn,
+.nextBtn,
+.pageBreak {
+	color: rgb(57, 57, 183);
+	padding: 10px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.pageActive {
+	background-color: rgb(57, 57, 183);
+	color: white;
+	border: none;
+}

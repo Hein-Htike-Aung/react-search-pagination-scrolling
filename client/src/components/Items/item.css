@@ -1,0 +1,29 @@
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.scrollingWrapper {
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+}
+
+.card {
+	border: 1px solid #ccc;
+	width: 330px;
+	padding: 10px;
+}
+
+.cardId,
+.cardTitle {
+	text-align: center;
+}
+
+.cardBody {
+	margin-top: 10px;
+	font-size: 12px;
+	color: #888;
+}

@@ -1,0 +1,29 @@
+.search {
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.searchInput {
+	padding: 10px;
+	outline: none;
+	font-size: 18px;
+	width: 400px;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+}
+
+.listItem {
+	font-size: 30px;
+	margin: 20px 0;
+	font-weight: 300;
+	color: #444;
+}
